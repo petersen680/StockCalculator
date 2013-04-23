@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <string name="app_name">Stock Trade Calculator</string>
+    <string name="results_page">Stock Calculator Results</string>
+    <string name="error_page">Stock Calculator Error</string>
+    <string name="data2">Error:</string>
+    <string name="data">Data Used In Calculations:</string>
+    <string name="back">Re-enter Data</string>
+    <string name="enterprice">Enter Buy Price:</string>
+    <string name="enterstoptarget">Enter Stop Target:</string>
+    <string name="enterstopamount">Enter Dollar Amount To Put At Risk:</string>
+    <string name="enterlimittarget">Enter Limit Target:</string>
+    <string name="entercommission">Enter Commission (one way):</string>
+    <string name="helpmessage">Enter how much you can afford to lose if you hit your stop on a trade. The number of shares to buy will be calculated as well as the profit if you hit your limit (remember, this can only be an approximation; prices can gap past your stop or limit). </string>
+	<string name="sharestobuy">Number Of Shares To Buy:</string>
+	<string name="profit">Profit If Limit Is Hit:</string>
+	<string name="capital">Capital Needed For Trade:</string>
+	<string name="calculate">Calculate</string>
+	<string name="risk">Amount of capital at risk:</string>
+	<string name="buyprice">"Buy price is:</string>
+	<string name="stopat">Stop at:</string>
+	<string name="limitat">Limit at:</string>
+	<string name="rtcommision">Round trip commission is:</string>
+	<string name="help">Help</string>
+	<string name="clear">Clear All</string>
+	<string name="message1">Entries cannot be blank</string>
+	<string name="message2">Amount to put at risk must be greater than buy price minus stop price for one share plus commissions</string>
+	<string name="message3">Stop target must be smaller than buy price</string>
+	<string name="message4">Limit target must be greater than buy price</string>
+     <string name="close">Close</string>
+     <string name="helptitle">Help</string>
+</resources>

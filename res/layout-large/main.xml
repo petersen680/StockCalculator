@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    >
+    
+    
+    
+ <!--   
+ 
+    
+android:padding
+android:paddingBottom
+android:paddingLeft
+android:paddingRight
+android:paddingTop
+    
+-->  
+    
+    
+    
+    
+    
+    
+    <TextView 
+        android:id="@+id/enter_stopamount" 
+    android:layout_width="450dp" 
+    android:layout_height="40dp" 
+    android:text="@string/enterstopamount"
+    android:textSize="28sp"
+    />
+  <EditText 
+  		android:id="@+id/stopamount" 
+  		android:inputType="numberDecimal"
+  		android:layout_width="400dp"
+  		android:layout_height="100dp" 
+  		 android:textSize="28sp"
+  		/>
+  		
+<TextView  
+	android:id="@+id/enter_price"
+    android:layout_width="450dp" 
+    android:layout_height="40dp" 
+    android:text="@string/enterprice"
+     android:textSize="28sp"
+    />
+    <EditText 
+  		android:id="@+id/price" 
+  		android:inputType="numberDecimal"
+  		android:layout_width="400dp"
+  		android:layout_height="100dp"
+  		 android:textSize="28sp"
+  		/>
+  		
+  		
+  		
+    <TextView 
+    android:id="@+id/enter_stoptarget" 
+    android:layout_width="450dp" 
+    android:layout_height="40dp" 
+    android:text="@string/enterstoptarget"
+     android:textSize="28sp"
+    />
+  <EditText 
+  		android:id="@+id/stoptarget" 
+  		android:inputType="numberDecimal"
+  		android:layout_width="400dp"
+  		android:layout_height="100dp" 
+  		 android:textSize="28sp"
+  		/>
+  		
+  		
+  		
+    <TextView  
+    android:id="@+id/enter_limittarget"
+    android:layout_width="450dp" 
+    android:layout_height="40dp" 
+    android:text="@string/enterlimittarget"
+     android:textSize="28sp"
+    />
+    <EditText 
+  		android:id="@+id/limittarget" 
+  		android:inputType="numberDecimal"
+  		android:layout_width="400dp" 
+  		android:layout_height="100dp" 
+  		 android:textSize="28sp"
+  		/>
+    <TextView  
+    android:id="@+id/enter_commission"
+    android:layout_width="450dp" 
+    android:layout_height="40dp" 
+    android:text="@string/entercommission"
+     android:textSize="28sp"
+    />
+    
+    
+    <EditText 
+  		android:id="@+id/commission" 
+  		android:inputType="numberDecimal"
+  		android:layout_width="400dp" 
+  		android:layout_height="100dp" 
+  		 android:textSize="28sp"
+  		/>
+    
+    
+    
+    <Button   
+    android:id="@+id/btn_calculate" 
+    android:layout_width="450dp" 
+    android:layout_height="100dp" 
+    android:text="@string/calculate" 
+     android:textSize="28sp"
+    /> 
+    
+    
+    
+    
+    
+</LinearLayout>
+</ScrollView>
