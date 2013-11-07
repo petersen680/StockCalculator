@@ -1,103 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+
 <ScrollView 
 android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+	>
+
 <LinearLayout 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     >
     
+    <TextView 
+    android:paddingTop="25dp"
+    android:id="@+id/data" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/data"
+    />
     
+    
+<TextView  
+    android:paddingTop="25dp" 
+    android:id="@+id/data_display" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    />
 
     
-    <TextView 
-      android:paddingTop="25dp"
-        android:id="@+id/enter_stopamount" 
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/enterstopamount"
-    />
-  <EditText 
-  		android:id="@+id/stopamount" 
-  		android:inputType="numberDecimal"
-  		android:layout_width="200dp"
-  		android:layout_height="wrap_content" 
-  		/>
-  		
-<TextView  
-	android:id="@+id/enter_price"
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/enterprice"
-    />
-    <EditText 
-  		android:id="@+id/price" 
-  		android:inputType="numberDecimal"
-  		android:layout_width="200dp"
-  		android:layout_height="wrap_content"
-  		/>
-  		
-  		
-  		
+    <LinearLayout android:focusable="true"
+               android:focusableInTouchMode="true" android:layout_width="0dp"
+                android:layout_height="0dp" />
     
-    <TextView 
-    android:id="@+id/enter_stoptarget" 
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/enterstoptarget"
-    />
-  <EditText 
-  		android:id="@+id/stoptarget" 
-  		android:inputType="numberDecimal"
-  		android:layout_width="200dp"
-  		android:layout_height="wrap_content" 
-  		/>
-  		
-  		
-  		
     <TextView  
-    android:id="@+id/enter_limittarget"
+    android:paddingTop="25dp" 
+    android:id="@+id/shares_to_buy" 
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="@string/enterlimittarget"
+    android:text="@string/sharestoshort"
     />
+    
     <EditText 
-  		android:id="@+id/limittarget" 
+  		android:id="@+id/number_shares_to_buy" 
   		android:inputType="numberDecimal"
-  		android:layout_width="200dp" 
+  		android:layout_width="200dp"
   		android:layout_height="wrap_content" 
   		/>
-    <TextView  
-    android:id="@+id/enter_commission"
+  		
+  		<TextView  
+    android:id="@+id/capital" 
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="@string/entercommission"
+    android:text="@string/capital"
     />
-    
-    
-    <EditText 
-  		android:id="@+id/commission" 
+  		<EditText 
+  		android:id="@+id/capital_needed" 
   		android:inputType="numberDecimal"
-  		android:layout_width="200dp" 
+  		android:layout_width="200dp"
   		android:layout_height="wrap_content" 
   		/>
+  		
+  		<TextView  
+    android:id="@+id/profit" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/profit"
+    />
+  		<EditText 
+  		android:id="@+id/profit_if" 
+  		android:inputType="numberDecimal"
+  		android:layout_width="200dp"
+  		android:layout_height="wrap_content" 
+  		/>
+  	
     
-    
-    
-    <Button   
-    android:id="@+id/btn_calculate" 
+    <Button 
+    android:id="@+id/btn_back" 
     android:layout_width="225dp" 
     android:layout_height="wrap_content" 
-    android:text="@string/calculate" 
+    android:text="@string/back" 
     /> 
-    
-    
-    
-    
+   
     
 </LinearLayout>
 </ScrollView>
+

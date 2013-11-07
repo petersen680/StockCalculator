@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+>
+    
+    
+    <TextView  
+     
+    android:id="@+id/chose" 
+    android:layout_marginTop="15dp"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/chose"
+    />
+    
+    
+
+    
+    <Button
+    android:id="@+id/btn_long" 
+    android:layout_marginTop="15dp"
+    android:layout_width="225dp" 
+    android:layout_height="wrap_content" 
+    android:text="@string/l" 
+    /> 
+    
+    
+    <Button
+    android:id="@+id/btn_short" 
+    android:layout_marginTop="15dp"
+    android:layout_width="225dp" 
+    android:layout_height="wrap_content" 
+    android:text="@string/s" 
+    /> 
+    
+    
+    
+</LinearLayout>

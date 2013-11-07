@@ -15,21 +15,7 @@ android:layout_width="fill_parent"
     
     
     
- <!--   
- 
-    
-android:padding
-android:paddingBottom
-android:paddingLeft
-android:paddingRight
-android:paddingTop
-    
--->  
-    
-    
-    
-    
-    
+
     
     <TextView 
         android:id="@+id/enter_stopamount" 
@@ -124,6 +110,22 @@ android:paddingTop
     
     
     
+     <!--   
+ 
+    
+android:padding
+android:paddingBottom
+android:paddingLeft
+android:paddingRight
+android:paddingTop
+    
+-->  
+    
+    
+    
+    
+    
+      
     
 </LinearLayout>
 </ScrollView>

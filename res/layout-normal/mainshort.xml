@@ -32,7 +32,7 @@ android:layout_width="fill_parent"
 	android:id="@+id/enter_price"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="@string/enterprice"
+    android:text="@string/entershortprice"
     />
     <EditText 
   		android:id="@+id/price" 
