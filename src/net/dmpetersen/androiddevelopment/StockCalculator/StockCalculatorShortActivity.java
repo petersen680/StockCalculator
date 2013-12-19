@@ -299,7 +299,7 @@ private void showHelp(){
         		
        int numberOfShares = 0;	     
        Double total = new Double(0);	     
-       double temp2 = 0;	     
+       Double temp2 = new Double(0);	     
        double temp3 = 0;
        double atRisk = 0;
        double r_T_Commission = commission2.doubleValue() + commission2.doubleValue();
@@ -319,7 +319,7 @@ private void showHelp(){
        	     
        	        	     
        	     
-       	     total = total + r_T_Commission;
+       	     temp2 = temp2 + r_T_Commission;
        	     
        	     Double limit = new Double(limitTarget2.doubleValue());
        	     
@@ -339,7 +339,7 @@ private void showHelp(){
        	     String STstring = new String(currency.format(stopTarget2.doubleValue()));
        	     String LTstring = new String(currency.format(limitTarget2.doubleValue()));
        	     String RTstring = new String(currency.format(r_T_Commission));
-       	     String Tstring = new String(currency.format(total.doubleValue()));
+       	     String Tstring = new String(currency.format(temp2.doubleValue()));
        	     String Pstring = new String(currency.format(profitIf.doubleValue()));
        	
        	  

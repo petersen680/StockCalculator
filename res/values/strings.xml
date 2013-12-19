@@ -42,8 +42,8 @@
      <string name="l">Long</string>
      <string name="s">Short</string>
      <string name="longorshort">Stock Trade Calculator</string>
-     
-     
+      <string name="calcatriskamt">Enter total amount of capital to find the 2 percent "at risk" amount:</string>
+     <string name="atriskcalculate">Calculate</string>
      
      
 </resources>

@@ -7,13 +7,64 @@
 >
     
     
+    
+    
+    <TextView  
+     
+    android:id="@+id/calcatriskmsg" 
+    android:layout_marginTop="15dp"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/calcatriskamt"
+    
+    />
+    
+    
+    
+    <EditText 
+  		android:id="@+id/calcatrisk" 
+  		android:inputType="numberDecimal"
+  		 android:layout_marginTop="15dp"
+    android:layout_width="225dp" 
+    android:layout_height="wrap_content" 
+      		/>
+    
+    
+    
+    
+    
+     
+      <Button
+    android:id="@+id/btn_calcatrisk" 
+     android:layout_marginTop="15dp"
+    android:layout_width="225dp" 
+    android:layout_height="wrap_content" 
+    android:text="@string/atriskcalculate" 
+    
+    /> 
+    
+      
+       <TextView  
+     
+    android:id="@+id/atriskcalced" 
+    android:layout_marginTop="15dp"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    
+    android:text=""
+    
+    />
+      
+    
     <TextView  
      
     android:id="@+id/chose" 
     android:layout_marginTop="15dp"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
+    
     android:text="@string/chose"
+    
     />
     
     
@@ -21,21 +72,35 @@
     
     <Button
     android:id="@+id/btn_long" 
-    android:layout_marginTop="15dp"
+     android:layout_marginTop="15dp"
     android:layout_width="225dp" 
     android:layout_height="wrap_content" 
     android:text="@string/l" 
+     
     /> 
     
     
     <Button
     android:id="@+id/btn_short" 
-    android:layout_marginTop="15dp"
+     android:layout_marginTop="15dp"
     android:layout_width="225dp" 
     android:layout_height="wrap_content" 
-    android:text="@string/s" 
+    android:text="@string/s"
+    
     /> 
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
     
     
 </LinearLayout>
